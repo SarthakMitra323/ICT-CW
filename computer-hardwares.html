@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Hardwares - ICT Classwork</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="mask-icon" href="favicon.svg" color="#5a67d8">
+    <meta name="theme-color" content="#5a67d8">
+    <style>
+        .hardware-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .hardware-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .hardware-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        
+        .hardware-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .pdf-section {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .pdf-viewer {
+            background: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+        
+        .download-btn {
+            background: white;
+            color: #f5576c;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0.5rem;
+            transition: all 0.3s;
+        }
+        
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        
+        .note-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 5px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computer Hardwares</h1>
+        <p class="subtitle">Physical Components of a Computer System</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="internet-ethics.html">Internet Ethics and Terms</a></li>
+            <li><a href="malwares.html">Malwares</a></li>
+            <li><a href="computer-hardwares.html" class="active">Computer Hardwares</a></li>
+            <li><a href="techno-world.html">Techno World</a></li>
+            <li><a href="it-personalities.html">IT Personalities</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Understanding Computer Hardware</h2>
+            <p>Computer hardware refers to the physical components that make up a computer system. These components work together to process data, store information, and enable users to interact with the computer.</p>
+        </section>
+
+        <section>
+            <h2>Main Hardware Components</h2>
+            <div class="hardware-grid">
+                <div class="hardware-card">
+                    <div class="hardware-icon">🖥️</div>
+                    <h3>Monitor</h3>
+                    <p>Display device that shows visual output from the computer</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">⌨️</div>
+                    <h3>Keyboard</h3>
+                    <p>Input device for typing text and commands</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">🖱️</div>
+                    <h3>Mouse</h3>
+                    <p>Pointing device for navigation and selection</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">💻</div>
+                    <h3>System Unit</h3>
+                    <p>Main case containing CPU, RAM, and motherboard</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">🧠</div>
+                    <h3>CPU</h3>
+                    <p>Central Processing Unit - brain of the computer</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">💾</div>
+                    <h3>RAM</h3>
+                    <p>Random Access Memory - temporary storage</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">💿</div>
+                    <h3>Hard Drive</h3>
+                    <p>Permanent storage device for data and programs</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">🖨️</div>
+                    <h3>Printer</h3>
+                    <p>Output device for producing physical copies</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">🔊</div>
+                    <h3>Speakers</h3>
+                    <p>Audio output devices for sound</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">📷</div>
+                    <h3>Webcam</h3>
+                    <p>Camera for video calls and recording</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">🎮</div>
+                    <h3>Graphics Card</h3>
+                    <p>Processes and renders images and videos</p>
+                </div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">🔌</div>
+                    <h3>Power Supply</h3>
+                    <p>Provides electrical power to components</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pdf-section">
+            <h2>📄 Detailed Hardware Documentation</h2>
+            <p>Download or view the comprehensive PDF document about computer hardware components</p>
+            
+            <a href="Computer_Hardware.pdf" class="download-btn" download>📥 Download PDF Document</a>
+            
+            <div class="pdf-viewer">
+                <h3 style="color: #333; margin-bottom: 1rem;">PDF Preview</h3>
+                <iframe 
+                    src="Computer_Hardware.pdf"
+                    width="100%" 
+                    height="600px" 
+                    style="border: 1px solid #ddd; border-radius: 5px;"
+                    type="application/pdf">
+                    <p style="color: #333;">
+                        Your browser doesn't support PDF viewing. 
+                        <a href="computer-hardwares.pdf" style="color: #667eea;">Download the PDF</a> instead.
+                    </p>
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Hardware Categories</h2>
+            <div class="topic-grid">
+                <div class="topic-card">
+                    <h3>Input Devices</h3>
+                    <p>Devices used to enter data into the computer: keyboard, mouse, scanner, microphone, webcam.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Output Devices</h3>
+                    <p>Devices that display or output information: monitor, printer, speakers, projector.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Processing Devices</h3>
+                    <p>Components that process data: CPU, GPU, motherboard, RAM.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Storage Devices</h3>
+                    <p>Devices for storing data: hard drive, SSD, USB drive, optical discs.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ICT Classwork Portfolio</p>
+    </footer>
+</body>
+</html>

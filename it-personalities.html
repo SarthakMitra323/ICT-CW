@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Personalities - ICT Classwork</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="mask-icon" href="favicon.svg" color="#5a67d8">
+    <meta name="theme-color" content="#5a67d8">
+    <style>
+        .coding-banner {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .coding-badge {
+            display: inline-block;
+            background: #d63031;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .personality-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 2rem;
+            transition: all 0.3s;
+        }
+        
+        .personality-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+        
+        .personality-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: white;
+        }
+        
+        .personality-info h3 {
+            color: #1e3c72;
+            margin-bottom: 0.5rem;
+        }
+        
+        .personality-role {
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .personality-years {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        
+        .achievement {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-left: 4px solid #667eea;
+            margin: 0.5rem 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .quote-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            font-style: italic;
+            text-align: center;
+            margin: 1rem 0;
+            font-size: 1.1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .personality-card {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .personality-image {
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IT Personalities</h1>
+        <p class="subtitle">Pioneers Who Shaped Technology</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="internet-ethics.html">Internet Ethics and Terms</a></li>
+            <li><a href="malwares.html">Malwares</a></li>
+            <li><a href="computer-hardwares.html">Computer Hardwares</a></li>
+            <li><a href="techno-world.html">Techno World</a></li>
+            <li><a href="it-personalities.html" class="active">IT Personalities</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="coding-banner">
+            <div class="coding-badge">💻 CODING</div>
+            <h2 style="color: #333;">Influential Figures in IT and Programming</h2>
+            <p style="color: #555;">Meet the visionaries who revolutionized computing and coding</p>
+        </section>
+
+        <section>
+            <h2>Legends of Computer Science</h2>
+            
+            <div class="personality-card">
+                <div class="personality-image">👨‍💻</div>
+                <div class="personality-info">
+                    <h3>Alan Turing</h3>
+                    <div class="personality-role">Father of Computer Science</div>
+                    <div class="personality-years">1912 - 1954</div>
+                    <p>Alan Turing was a British mathematician and computer scientist who played a crucial role in breaking Nazi codes during World War II. He is considered the father of theoretical computer science and artificial intelligence.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Developed the Turing Machine, a theoretical device that laid the foundation for modern computing.
+                    </div>
+                    <div class="achievement">
+                        <strong>Legacy:</strong> The Turing Award, often called the "Nobel Prize of Computing," is named in his honor.
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">👩‍💻</div>
+                <div class="personality-info">
+                    <h3>Ada Lovelace</h3>
+                    <div class="personality-role">First Computer Programmer</div>
+                    <div class="personality-years">1815 - 1852</div>
+                    <p>Ada Lovelace was an English mathematician who is credited with writing the first computer algorithm. She worked on Charles Babbage's Analytical Engine and envisioned computers beyond mere calculation.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Wrote the first algorithm intended for machine processing, making her the world's first programmer.
+                    </div>
+                    <div class="quote-box">
+                        "The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves."
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">👨‍💼</div>
+                <div class="personality-info">
+                    <h3>Bill Gates</h3>
+                    <div class="personality-role">Co-founder of Microsoft</div>
+                    <div class="personality-years">Born 1955</div>
+                    <p>Bill Gates co-founded Microsoft and led the personal computer revolution. His vision of "a computer on every desk and in every home" became reality, making technology accessible to billions.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Developed Microsoft Windows, the world's most popular operating system.
+                    </div>
+                    <div class="achievement">
+                        <strong>Impact:</strong> Pioneered user-friendly software that made computers accessible to non-technical users.
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">🍎</div>
+                <div class="personality-info">
+                    <h3>Steve Jobs</h3>
+                    <div class="personality-role">Co-founder of Apple</div>
+                    <div class="personality-years">1955 - 2011</div>
+                    <p>Steve Jobs revolutionized personal computing, music, phones, and tablets. His focus on design and user experience transformed how people interact with technology.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Created iconic products like the Macintosh, iPod, iPhone, and iPad.
+                    </div>
+                    <div class="quote-box">
+                        "Innovation distinguishes between a leader and a follower."
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">🌐</div>
+                <div class="personality-info">
+                    <h3>Tim Berners-Lee</h3>
+                    <div class="personality-role">Inventor of the World Wide Web</div>
+                    <div class="personality-years">Born 1955</div>
+                    <p>Tim Berners-Lee invented the World Wide Web in 1989, creating the protocols and technologies that power the internet we use today. He made his invention freely available without patents.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Created HTML, HTTP, and URLs, the foundation of the modern web.
+                    </div>
+                    <div class="achievement">
+                        <strong>Philosophy:</strong> Advocates for a free and open internet accessible to everyone.
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">🐧</div>
+                <div class="personality-info">
+                    <h3>Linus Torvalds</h3>
+                    <div class="personality-role">Creator of Linux</div>
+                    <div class="personality-years">Born 1969</div>
+                    <p>Linus Torvalds created Linux, the open-source operating system that powers millions of servers, smartphones (Android), and devices worldwide. He pioneered collaborative software development.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Developed the Linux kernel and created Git, the version control system.
+                    </div>
+                    <div class="achievement">
+                        <strong>Impact:</strong> Linux runs on most web servers, supercomputers, and Android devices globally.
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">👨‍🏫</div>
+                <div class="personality-info">
+                    <h3>Dennis Ritchie</h3>
+                    <div class="personality-role">Creator of C Programming Language</div>
+                    <div class="personality-years">1941 - 2011</div>
+                    <p>Dennis Ritchie created the C programming language and co-developed the Unix operating system. C became one of the most influential programming languages in history.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> C language influenced countless other languages including C++, Java, JavaScript, and Python.
+                    </div>
+                    <div class="achievement">
+                        <strong>Legacy:</strong> Unix principles still influence modern operating systems like Linux and macOS.
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">🐍</div>
+                <div class="personality-info">
+                    <h3>Guido van Rossum</h3>
+                    <div class="personality-role">Creator of Python</div>
+                    <div class="personality-years">Born 1956</div>
+                    <p>Guido van Rossum created Python, one of the most popular and versatile programming languages. Python is known for its simplicity and readability, making it ideal for beginners and experts alike.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Designed Python with emphasis on code readability and simplicity.
+                    </div>
+                    <div class="achievement">
+                        <strong>Impact:</strong> Python powers web development, data science, AI, and scientific computing.
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">☕</div>
+                <div class="personality-info">
+                    <h3>James Gosling</h3>
+                    <div class="personality-role">Father of Java</div>
+                    <div class="personality-years">Born 1955</div>
+                    <p>James Gosling created Java, a programming language designed to be platform-independent. Java's "Write Once, Run Anywhere" philosophy revolutionized software development.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Developed Java, which runs on billions of devices worldwide.
+                    </div>
+                    <div class="achievement">
+                        <strong>Usage:</strong> Java powers Android apps, enterprise systems, and web applications globally.
+                    </div>
+                </div>
+            </div>
+
+            <div class="personality-card">
+                <div class="personality-image">👩‍🔬</div>
+                <div class="personality-info">
+                    <h3>Grace Hopper</h3>
+                    <div class="personality-role">Pioneer of Computer Programming</div>
+                    <div class="personality-years">1906 - 1992</div>
+                    <p>Grace Hopper was a computer scientist and U.S. Navy rear admiral who developed the first compiler and popularized the idea of machine-independent programming languages, leading to COBOL.</p>
+                    <div class="achievement">
+                        <strong>Key Contribution:</strong> Created the first compiler and coined the term "computer bug."
+                    </div>
+                    <div class="quote-box">
+                        "The most dangerous phrase in the language is, 'We've always done it this way.'"
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Why These Personalities Matter</h2>
+            <div class="topic-grid">
+                <div class="topic-card">
+                    <h3>Innovation</h3>
+                    <p>These pioneers challenged conventional thinking and created revolutionary technologies that shaped our digital world.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Inspiration</h3>
+                    <p>Their stories inspire future generations to pursue careers in technology and continue pushing boundaries.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Foundation</h3>
+                    <p>Their work laid the foundation for modern computing, programming languages, and the internet we use daily.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Legacy</h3>
+                    <p>Their contributions continue to influence software development, cybersecurity, and technological advancement today.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ICT Classwork Portfolio</p>
+    </footer>
+</body>
+</html>

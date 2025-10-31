@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno World - ICT Classwork</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="mask-icon" href="favicon.svg" color="#5a67d8">
+    <meta name="theme-color" content="#5a67d8">
+    <style>
+        .tech-timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+        
+        .timeline-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            transition: all 0.3s;
+        }
+        
+        .timeline-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+        
+        .tech-category {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+        }
+        
+        .tech-news {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            margin: 1rem 0;
+            transition: all 0.3s;
+        }
+        
+        .tech-news:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+        
+        .tech-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .emerging-tech {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .tech-card-special {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .tech-card-special:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Techno World</h1>
+        <p class="subtitle">Exploring the World of Technology</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="internet-ethics.html">Internet Ethics and Terms</a></li>
+            <li><a href="malwares.html">Malwares</a></li>
+            <li><a href="computer-hardwares.html">Computer Hardwares</a></li>
+            <li><a href="techno-world.html" class="active">Techno World</a></li>
+            <li><a href="it-personalities.html">IT Personalities</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to Techno World</h2>
+            <p>Technology is constantly evolving, shaping the way we live, work, and communicate. This page explores various aspects of the technology world, from emerging trends to groundbreaking innovations.</p>
+        </section>
+
+        <section>
+            <h2>Emerging Technologies</h2>
+            <div class="emerging-tech">
+                <div class="tech-card-special">
+                    <div class="tech-icon">🤖</div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Machine learning and AI are revolutionizing industries from healthcare to transportation.</p>
+                </div>
+                
+                <div class="tech-card-special">
+                    <div class="tech-icon">🔗</div>
+                    <h3>Blockchain</h3>
+                    <p>Decentralized technology powering cryptocurrencies and secure transactions.</p>
+                </div>
+                
+                <div class="tech-card-special">
+                    <div class="tech-icon">☁️</div>
+                    <h3>Cloud Computing</h3>
+                    <p>Accessing computing resources and storage over the internet on-demand.</p>
+                </div>
+                
+                <div class="tech-card-special">
+                    <div class="tech-icon">🥽</div>
+                    <h3>Virtual Reality</h3>
+                    <p>Immersive digital experiences transforming entertainment and education.</p>
+                </div>
+                
+                <div class="tech-card-special">
+                    <div class="tech-icon">📱</div>
+                    <h3>Internet of Things</h3>
+                    <p>Connected devices communicating and sharing data automatically.</p>
+                </div>
+                
+                <div class="tech-card-special">
+                    <div class="tech-icon">🔐</div>
+                    <h3>Cybersecurity</h3>
+                    <p>Protecting systems and data from digital attacks and threats.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-category">
+            <h2>🌐 Web Technologies</h2>
+            <div style="background: white; color: #333; padding: 1.5rem; border-radius: 8px; margin-top: 1rem;">
+                <h3>HTML, CSS & JavaScript</h3>
+                <p>The foundational technologies of web development:</p>
+                <ul style="margin-left: 2rem; margin-top: 0.5rem;">
+                    <li><strong>HTML</strong> - Structures web content</li>
+                    <li><strong>CSS</strong> - Styles and designs web pages</li>
+                    <li><strong>JavaScript</strong> - Adds interactivity and functionality</li>
+                </ul>
+                
+                <h3 style="margin-top: 1rem;">Modern Frameworks</h3>
+                <p>React, Vue, Angular, and other frameworks make web development more efficient and powerful.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technology Timeline</h2>
+            <div class="tech-timeline">
+                <div class="timeline-item">
+                    <h3>📡 1969 - ARPANET</h3>
+                    <p>The first operational packet switching network and predecessor of the internet.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>💻 1981 - IBM PC</h3>
+                    <p>IBM releases the first personal computer, making computing accessible to individuals.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>🌐 1991 - World Wide Web</h3>
+                    <p>Tim Berners-Lee makes the World Wide Web publicly available.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>🔍 1998 - Google</h3>
+                    <p>Google is founded, revolutionizing internet search.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>📱 2007 - iPhone</h3>
+                    <p>Apple launches the iPhone, starting the smartphone revolution.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>🤖 2020s - AI Revolution</h3>
+                    <p>Artificial Intelligence and machine learning become mainstream technologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Tech News & Trends</h2>
+            
+            <div class="tech-news">
+                <h3>🚀 Quantum Computing Advances</h3>
+                <p>Quantum computers are making breakthroughs that could solve problems impossible for classical computers.</p>
+            </div>
+            
+            <div class="tech-news">
+                <h3>🌱 Green Technology</h3>
+                <p>Sustainable tech solutions are helping combat climate change and reduce environmental impact.</p>
+            </div>
+            
+            <div class="tech-news">
+                <h3>🏥 HealthTech Innovation</h3>
+                <p>Technology is transforming healthcare with telemedicine, AI diagnostics, and wearable devices.</p>
+            </div>
+            
+            <div class="tech-news">
+                <h3>🚗 Autonomous Vehicles</h3>
+                <p>Self-driving cars are becoming a reality, promising safer and more efficient transportation.</p>
+            </div>
+            
+            <div class="tech-news">
+                <h3>🎮 Gaming Technology</h3>
+                <p>Next-gen consoles, cloud gaming, and VR are pushing the boundaries of interactive entertainment.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Impact of Technology</h2>
+            <div class="topic-grid">
+                <div class="topic-card">
+                    <h3>Education</h3>
+                    <p>E-learning platforms, virtual classrooms, and educational apps make learning accessible worldwide.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Communication</h3>
+                    <p>Social media, video calls, and instant messaging connect people across the globe.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Business</h3>
+                    <p>Digital transformation, automation, and data analytics revolutionize how companies operate.</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3>Entertainment</h3>
+                    <p>Streaming services, gaming, and digital content creation offer unlimited entertainment options.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ICT Classwork Portfolio</p>
+    </footer>
+</body>
+</html>
